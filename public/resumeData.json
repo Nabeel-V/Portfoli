@@ -6,7 +6,7 @@
         "⚡ I have also completed various online courses for Backend , Web , Mobile App Development, etc."    
         ],
     "image":"profilepic.jpg",
-    "bio":["I am a self-taught Full Stack Web Deveoper. I found passion for coding and web-Dev an d want to start a solid career in Tech & make awesome things with Tech "      ],
+    "bio":["I am a self-taught Full Stack Web Deveoper. I found passion for coding and web-Dev and want to start a solid career in Tech & make awesome things with Tech "      ],
     "contactmessage":"You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ",
     "email": "nabeelv27@gmail.com",
     "phone": "+91 9072013210",
@@ -82,6 +82,12 @@
   },
   "portfolio":{
     "projects": [
+      {
+        "title": "OLX Clone",
+        "category": "I'ts an clone of OLX",
+        "image": "05.jpg",
+        "url": "https://olx-clone-nabeel.netlify.app/"
+      },
       {
         "title": "Amazon Prime Clone",
         "category": "I'ts an clone of Amazon Prime Video",
