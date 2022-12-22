@@ -15,6 +15,11 @@ class Footer extends Component {
       );
     });
 
+    function getFullYear() {
+      const date = new Date();
+      return date.getFullYear()
+    }
+
     return (
       <footer>
         <div className="row">
@@ -23,7 +28,7 @@ class Footer extends Component {
               <ul className="social-links">{networks}</ul>
 
               <ul className="copyright">
-                <li>&copy; Copyright 2021 Nabeel</li>
+                <li>&copy; Copyright {getFullYear()} Nabeel</li>
                 
               </ul>
             </div>
